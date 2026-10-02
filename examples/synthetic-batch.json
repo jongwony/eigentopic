@@ -4,7 +4,7 @@
     "hand_authored": true,
     "runtime_output": false,
     "schema_status": "illustrative_not_stable_api",
-    "notice": "모든 자료, 날짜, 이름, ID와 처리 결과는 설명을 위한 가상 예시다. 실행 가능한 추론 엔진의 출력이나 실제 사용자 자료가 아니다."
+    "notice": "All material, dates, names, IDs, and processing results are fictional examples for illustration. They are neither output from a runnable inference engine nor real user data."
   },
   "sources": [
     {
@@ -12,27 +12,27 @@
       "revision_id": "synthetic-source-1-r1",
       "url": "https://example.invalid/library/1",
       "collected_at": "2026-01-01T00:00:00Z",
-      "title": "무인 반납함 안내",
-      "body": "가상 도서관 입구의 반납함은 운영시간 밖에도 도서를 반납할 수 있다.",
-      "content_sha256": "e61b62f2ea75ad9d3f903f064c7ca0c668e9353d7fba1c5950e052e680717adc"
+      "title": "Unattended book-return box notice",
+      "body": "The return box at the fictional library's entrance allows books to be returned outside opening hours.",
+      "content_sha256": "e8983fa1bab7bc3f9c694d52111fab49a55cc81f82b8679812f2a26b3a4f2bf9"
     },
     {
       "source_id": "synthetic-source-2",
       "revision_id": "synthetic-source-2-r1",
       "url": "https://example.invalid/library/2",
       "collected_at": "2026-01-01T00:00:00Z",
-      "title": "야간 도서 반납 안내",
-      "body": "가상 야간 반납함은 도서관이 문을 닫은 뒤에도 사용할 수 있다.",
-      "content_sha256": "a86db4ced5ee58e2423200921a6fdab32b653ccf85299cc7e14c43668e759213"
+      "title": "Nighttime book-return notice",
+      "body": "The fictional nighttime return box can be used after the library closes.",
+      "content_sha256": "590a9fdc261b1b3bd843787ead3ce6389ffbdbb535bf15628016430ba4a39cb5"
     },
     {
       "source_id": "synthetic-source-3",
       "revision_id": "synthetic-source-3-r1",
       "url": "https://example.invalid/library/3",
       "collected_at": "2026-01-02T00:00:00Z",
-      "title": "예약 도서 수령 안내",
-      "body": "가상 예약 도서 수령함은 운영시간 밖에도 예약한 도서를 찾을 수 있다.",
-      "content_sha256": "a2135ceaf1a880d4fee28d75b108ff1d54b08e4acdaeb9813ff70d09a1bfd89b"
+      "title": "Reserved-book pickup notice",
+      "body": "The fictional reserved-book pickup locker allows reserved books to be collected outside opening hours.",
+      "content_sha256": "2676316fe552fb42b523b833a89087d85cc1a8a3ad329022defe40d41a70fe08"
     }
   ],
   "observations": [
@@ -41,21 +41,21 @@
       "source_revision_id": "synthetic-source-1-r1",
       "locator": "body, paragraph 1",
       "kind": "source_statement",
-      "statement": "가상 도서관 입구의 반납함은 운영시간 밖에도 도서를 반납할 수 있다."
+      "statement": "The return box at the fictional library's entrance allows books to be returned outside opening hours."
     },
     {
       "observation_id": "synthetic-observation-2",
       "source_revision_id": "synthetic-source-2-r1",
       "locator": "body, paragraph 1",
       "kind": "source_statement",
-      "statement": "가상 야간 반납함은 도서관이 문을 닫은 뒤에도 사용할 수 있다."
+      "statement": "The fictional nighttime return box can be used after the library closes."
     },
     {
       "observation_id": "synthetic-observation-3",
       "source_revision_id": "synthetic-source-3-r1",
       "locator": "body, paragraph 1",
       "kind": "source_statement",
-      "statement": "가상 예약 도서 수령함은 운영시간 밖에도 예약한 도서를 찾을 수 있다."
+      "statement": "The fictional reserved-book pickup locker allows reserved books to be collected outside opening hours."
     }
   ],
   "topic_versions": [
@@ -63,8 +63,8 @@
       "topic_id": "synthetic-topic-1",
       "version_id": "synthetic-topic-1-v1",
       "previous_version_id": null,
-      "name": "운영시간 밖 도서 반납",
-      "scope": "운영시간 밖에도 도서를 반납할 수 있게 하는 안내와 시설",
+      "name": "After-hours book returns",
+      "scope": "Notices and facilities that allow books to be returned outside opening hours",
       "interpretation_kind": "proposed_grouping",
       "evidence": [
         {
@@ -77,15 +77,15 @@
         }
       ],
       "open_questions": [
-        "두 반납 안내가 같은 시설을 가리키는지는 확인되지 않았다."
+        "Whether the two return notices refer to the same facility is unconfirmed."
       ]
     },
     {
       "topic_id": "synthetic-topic-1",
       "version_id": "synthetic-topic-1-v2",
       "previous_version_id": "synthetic-topic-1-v1",
-      "name": "운영시간 밖 도서 이용",
-      "scope": "운영시간 밖의 도서 반납과 예약 도서 수령을 함께 살펴보는 임시 묶음",
+      "name": "After-hours book access",
+      "scope": "A provisional grouping that considers after-hours book returns and reserved-book pickups together",
       "interpretation_kind": "proposed_grouping",
       "evidence": [
         {
@@ -102,8 +102,8 @@
         }
       ],
       "open_questions": [
-        "반납과 수령을 별도 주제로 나누는 편이 유용한가?",
-        "세 안내가 동일한 운영 주체나 장비를 뜻한다는 근거는 없다."
+        "Would it be more useful to split returns and pickups into separate topics?",
+        "There is no evidence that the three notices refer to the same operator or equipment."
       ]
     }
   ],
@@ -120,7 +120,7 @@
         "synthetic-observation-2"
       ],
       "revisited_observation_ids": [],
-      "reason": "두 가상 안내의 운영시간 밖 반납이라는 공통 목적을 임시 주제로 묶었다.",
+      "reason": "The two fictional notices were grouped into a provisional topic based on their shared purpose of after-hours returns.",
       "status": "applied_in_fictional_example"
     },
     {
@@ -139,7 +139,7 @@
         "synthetic-observation-1",
         "synthetic-observation-2"
       ],
-      "reason": "새 수령 안내를 기존 반납 안내와 함께 읽고 공통 목적에 맞춰 임시 범위를 넓혔다. 서비스의 동일성은 추론하지 않았다.",
+      "reason": "The new pickup notice was read alongside the existing return notices, and the provisional scope was broadened around their shared purpose. No inference was made that the services were the same.",
       "status": "applied_in_fictional_example"
     }
   ],
